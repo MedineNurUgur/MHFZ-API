@@ -1,0 +1,32 @@
+﻿@model Solution.MhfzDB.MvcWebUI.Models.InventoryListViewModel
+
+@{
+    //Layout = "~/Views/_Layout.cshtml";
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Inventory_Id</td>
+                <td>Inventory_Type</td>
+                <td>Employee_Id</td>
+            </tr>
+            @foreach (var isci in Model.Inventories)
+            {
+                <tr>
+                    <td>@isci.Inventory_Id</td>
+                    <td>@isci.Inventory_Type</td>
+                    <td>@isci.Employee_Id</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

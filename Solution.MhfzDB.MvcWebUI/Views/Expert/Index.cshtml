@@ -1,0 +1,30 @@
+﻿@model Solution.MhfzDB.MvcWebUI.Models.ExpertListViewModel
+
+@{
+    //Layout = "~/Views/_Layout.cshtml";
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Expert_Id</td>
+                <td>Name_Surname</td>
+            </tr>
+            @foreach (var isci in Model.Experts)
+            {
+                <tr>
+                    <td>@isci.Expert_Id</td>
+                    <td>@isci.Name_Surname</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

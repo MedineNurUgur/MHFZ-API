@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Core", "Solution.Core\Solution.Core.csproj", "{404A877E-B92A-432B-AEE8-5243CF62BF27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.MhfzDB.Business", "Solution.MhfzDB.Business\Solution.MhfzDB.Business.csproj", "{55E1AF7C-4853-4D43-8D3E-E2C517136E6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.MhfzDB.DataAccess", "Solution.MhfzDB.DataAccess\Solution.MhfzDB.DataAccess.csproj", "{5CF05F3E-9143-4B90-B32C-D08331CDD485}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.MhfzDB.Entities", "Solution.MhfzDB.Entities\Solution.MhfzDB.Entities.csproj", "{E8477F8E-3027-4128-9330-847C6E370453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.MhfzDB.MvcWebUI", "Solution.MhfzDB.MvcWebUI\Solution.MhfzDB.MvcWebUI.csproj", "{668BEDAA-DC53-4C0E-8967-DC4FEB5E4A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{7F280D7A-7EA7-41DE-BF60-312DD112985D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404A877E-B92A-432B-AEE8-5243CF62BF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404A877E-B92A-432B-AEE8-5243CF62BF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404A877E-B92A-432B-AEE8-5243CF62BF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404A877E-B92A-432B-AEE8-5243CF62BF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E1AF7C-4853-4D43-8D3E-E2C517136E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E1AF7C-4853-4D43-8D3E-E2C517136E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E1AF7C-4853-4D43-8D3E-E2C517136E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E1AF7C-4853-4D43-8D3E-E2C517136E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF05F3E-9143-4B90-B32C-D08331CDD485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF05F3E-9143-4B90-B32C-D08331CDD485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF05F3E-9143-4B90-B32C-D08331CDD485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF05F3E-9143-4B90-B32C-D08331CDD485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8477F8E-3027-4128-9330-847C6E370453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8477F8E-3027-4128-9330-847C6E370453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8477F8E-3027-4128-9330-847C6E370453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8477F8E-3027-4128-9330-847C6E370453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668BEDAA-DC53-4C0E-8967-DC4FEB5E4A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668BEDAA-DC53-4C0E-8967-DC4FEB5E4A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668BEDAA-DC53-4C0E-8967-DC4FEB5E4A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668BEDAA-DC53-4C0E-8967-DC4FEB5E4A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F280D7A-7EA7-41DE-BF60-312DD112985D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F280D7A-7EA7-41DE-BF60-312DD112985D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F280D7A-7EA7-41DE-BF60-312DD112985D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F280D7A-7EA7-41DE-BF60-312DD112985D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9CABDBD-2C34-46AF-A5C0-C8E64F81ECCA}
+	EndGlobalSection
+EndGlobal

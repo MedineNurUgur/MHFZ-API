@@ -1,0 +1,34 @@
+﻿@model Solution.MhfzDB.MvcWebUI.Models.WorksiteListViewModel
+
+@{
+    //Layout = "~/Views/_Layout.cshtml";
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Worksite_Id</td>
+                <td>Expert_Id</td>
+                <td>Shift</td>
+                <td>Company_Id</td>
+            </tr>
+            @foreach (var isci in Model.Worksites)
+            {
+                <tr>
+                    <td>@isci.Worksite_Id</td>
+                    <td>@isci.Expert_Id</td>
+                    <td>@isci.Shift</td>
+                    <td>@isci.Company_Id</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

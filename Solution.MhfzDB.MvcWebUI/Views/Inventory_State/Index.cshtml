@@ -1,0 +1,30 @@
+﻿@model Solution.MhfzDB.MvcWebUI.Models.Inventory_StateListViewModel
+
+@{
+    //Layout = "~/Views/_Layout.cshtml";
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>IInventory_Id</td>
+                <td>State</td>
+            </tr>
+            @foreach (var isci in Model.Inventory_States)
+            {
+                <tr>
+                    <td>@isci.Inventory_Id</td>
+                    <td>@isci.State</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

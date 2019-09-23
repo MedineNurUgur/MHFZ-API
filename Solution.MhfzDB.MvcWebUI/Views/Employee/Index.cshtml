@@ -1,0 +1,36 @@
+﻿@model Solution.MhfzDB.MvcWebUI.Models.EmployeeListViewModel
+
+@{
+    Layout = "~/_Layout.cshtml";
+
+    //Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <table class="table table-responsive">
+            <tr>
+                <td>Isci_ID</td>
+                <td>Isci_Ad_Soyad</td>
+                <td>Santiye_ID</td>
+                <td>Puan</td>
+                <td>Takilmayan_Sure</td>
+            </tr>
+            @foreach (var isci in Model.Employees)
+            {
+                <tr>
+                    <td>@isci.Employee_Id</td>
+                    <td>@isci.Name_Surname</td>
+                    <td>@isci.Santiye_Id</td>
+                    <td>@isci.Puan</td>
+                    <td>@isci.Takilmayan_Sure</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
