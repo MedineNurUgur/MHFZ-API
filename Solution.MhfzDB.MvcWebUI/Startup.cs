@@ -44,7 +44,7 @@ namespace Solution.MhfzDB.MvcWebUI
             }
 
             app.UseFileServer();
-            app.UseNodeModules(env.ContentRootPath);
+            //app.UseNodeModules(env.ContentRootPath);
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes => {
                 routes.MapRoute(
