@@ -10,7 +10,7 @@ namespace Solution.MhfzDB.DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=sql.poseidon.domainhizmetleri.com;Initial Catalog=abayakad_radin;User ID=abayakad_radin;Password=deploy123!");
+            optionsBuilder.UseSqlServer(@"Data Source=;Initial Catalog=;User ID=;Password=");
         }
             
         public DbSet<Employee> Employees { get; set; }
